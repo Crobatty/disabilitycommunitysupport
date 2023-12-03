@@ -1,0 +1,118 @@
+/* COLOR SCHEME */
+  /* 
+    *Horizontal Navigation bar*
+    background color: #490707 Maroon
+
+    *indicates navigation bar is being hovered over*
+        background-color: #571a7c Purple
+
+    *indicates a page in the navigation bar has already been viewed*
+        background-color: #e8bff2 Light purple
+  */
+
+
+
+
+/* Body styling (general)*/
+body{
+
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    padding: 200px;
+
+}
+
+/* Headings (general) */
+h1 {text-align:center}
+h2 {text-align:center}
+h3 {text-align:left}
+
+/*===========================================================================================*/
+/* HORIZONTAL NAVIGATION BAR*/
+
+  nav {
+    /*styling for horizontal nav bar*/
+    background-color: #490707;
+    position:relative;
+    text-align: center; 
+    color: white;
+  }
+  nav ul {
+    /*removes bullet points and padding*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav ul li {
+    /*creates a horizontal list*/
+    display: inline-block;
+    width: 160px; /*help needed here */
+  }
+  nav ul li a {
+    /*styling for highest level of horizontal navigation bar*/
+    text-decoration: none;
+    text-align: center;
+    color: white;
+      padding: 8px 16px; /*help needed here*/
+      display: block; /* "ensures that entire block not just the text is a hyperlink" -from lab 10*/
+  }
+
+      nav ul li a:hover {
+        /*changes background color when hovered over on the highest level of links in horizontal navigation bar */
+        background-color: #571a7c;
+      }
+
+       nav li.selected a {
+      /*incates that a page in the navigation bar has already been viewed*/
+        background-color: #e8bff2; 
+      }
+
+/* from the accessible nav bar site*/
+nav > ul li ul { display: none; }
+nav > ul li:hover ul { display: block;}
+
+/*===================================================================================================*/
+/*end Horizontal Navigation*/
+
+ul {
+
+}
+
+section#Disclaimer {
+
+}
+
+section#WhyList {
+  /* uses dl dt dd */
+
+ }
+
+section#ShortUL { }
+
+
+section#Sources { }
+
+
+header.top { 
+
+  }
+
+footer.bottom {   
+
+  }
+
+  /* Sections in the Repeats.css stylesheet
+    -body
+    -h1
+    -h2
+    -h3
+    -nav
+    -Disclaimer
+    -Whylist (dl dt dd)
+    -Short UL (unordered list)
+    -Sources
+    -header.top
+    -footer.bottom
+*/

@@ -1,0 +1,28 @@
+
+.banner {
+    display:flex;
+    width: 16rem; 
+    position: sticky;
+    background: url("Repeats/Images/DCS.png")
+}
+    /*doesnt work*/
+
+
+
+/* Disclaimer section is different because it is on the homepage. Other versions of the disclaimer are styled in the Repeats.css stylesheet*/
+section#DisclaimerIndex { 
+
+}
+
+/* Sections in the Repeats.css stylesheet
+    -body
+    -h1
+    -h2
+    -h3
+    -Disclaimer
+    -Whylist (dl dt dd)
+    -Short UL (unordered list)
+    -Sources
+    -header.top
+    -footer.bottom
+*/

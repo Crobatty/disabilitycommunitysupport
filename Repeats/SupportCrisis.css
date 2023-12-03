@@ -1,0 +1,73 @@
+l
+ul {
+list-style-type: circle;
+}
+
+
+dl {
+    padding: 20px; /* Add padding to the entire description list */
+  }
+  
+  /* Style term (dt) elements */
+  dt {
+    font-weight: bold; /* Make the terms bold */
+    margin-bottom: 5px; /* Add margin below each term */
+  }
+  
+  /* Style definition (dd) elements */
+  dd {
+  list-style-type: square; /* Add a custom list style type to <dd> */
+  color: white; /* Set the color of the list item marker to white */
+  }
+  
+
+  dd:before {
+    content: '\25a0'; /* Unicode character for a solid square */
+    color: white; /* Set the color of the square marker to white */
+    display: inline-block;
+    width: 1em; /* Adjust the width of the square marker */
+    margin-right: 5px; /* Add space between the square marker and the content */
+  }
+
+
+
+  dt, dd {
+    padding-bottom: 10px; /* Add some space below each term and definition */
+  }
+
+
+
+
+
+
+
+section#OutsideAmerica { 
+}
+
+
+section#CSDoNotCallPolice { 
+
+}
+
+
+section#Warmlines { 
+
+}
+
+section#MandatedReporters {
+
+}
+
+
+/* Sections in the Repeats.css stylesheet
+    -body
+    -h1
+    -h2
+    -h3
+    -Disclaimer
+    -Whylist (dl dt dd)
+    -Short UL (unordered list)
+    -Sources
+    -header.top
+    -footer.bottom
+*/
